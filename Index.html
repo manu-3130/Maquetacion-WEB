@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @font-face {
+            font-family: LatoRegular;
+            src: url(Lato-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: DayRoman;
+            src: url(DAYROM__.ttf);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/IMG/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>TATENEN</title>
+
+</head>
+<!--MEDIDAS: PC: 1024 TABLET: 768 MOVIL: 320 -->
+
+<body>
+    <header>
+        <div id="HEADER">
+            <nav>
+                <img class="logo" src="/IMG/LOGO.png" width="20%" height="100%" alt="">
+                <button class="hamburguesa" onclick="menuhamburguesa()">
+                    <img src="/IMG/Recurso 5.png" width="50px" height="100%" alt="">
+                </button>
+
+                <ul id="List-Navbar">
+                    <li class="Navbar">
+                        <a href="#Integrantes" >
+                            Proyecto
+                        </a>
+                    </li>
+                    <li class="Navbar">
+                        <a href="#JUEGOWEB">
+                            Juego Web
+                        </a>
+                    </li>
+                    <li class="Navbar">
+                        <a href="#Contactanos">
+                            Contáctanos
+                        </a>
+                    </li>
+                </ul>
+
+                <ul id="List-Navbar1">
+                    <li class="Navbar1">
+                        <div class="Registro">
+                            <button onclick="Menu()">
+                                <img src="/IMG/Iconos/Registro.png" alt="" srcset="">
+                            </button>
+                            <div id="Menu_desplegable">
+                                <a href="">
+                                    Registrarse
+                                </h2>
+                                <a href="">
+                                    Iniciar sesión
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="Navbar1">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="/IMG/Iconos/Instagram.png" alt="" srcset="">
+                        </a>
+                    </li>
+                    <li class="Navbar1">
+                        <a href="https://wa.me/573012497450" target="_blank">
+                            <img src="/IMG/Iconos/WhatsApp.png" alt="" srcset="">
+                        </a>
+                    </li>
+                    <li class="Navbar1">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="/IMG/Iconos/Facebook.png" alt="" srcset="">
+                        </a>
+
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div id="Slider">
+            <div class="Flechas">
+                <button onclick="Slider_izquierdo()">
+                    <img id="Flecha-izquierda" src="/IMG/Iconos/Flecha izquierda.png" alt="">
+                </button>
+
+                <button onclick="Slider_derecho()">
+                    <img id="Flecha-derecha" src="/IMG/Iconos/Flecha derecha.png" alt="">
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="container" id="Integrantes">
+        <div class="container">
+            <h2>
+                Integrantes
+            </h2>
+            <div id="Columnas">
+                <div>
+                    <h3>
+                        Isabela Isaza
+                    </h3>
+
+                    <img
+                        src="/IMG/Integrantes/Fotos_Mesa de trabajo 1.png"
+                        onmouseover="this.src='/IMG/Integrantes/Isabela-unscreent.gif'"
+                        onmouseout="this.src='/IMG/Integrantes/Fotos_Mesa de trabajo 1.png'"
+                        width="190px" alt=""
+                    />
+                    <p>
+                        Cualidades: responsable, amorosa y paciente.
+                        <br>
+                        Destreza técnica: fotografía.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Manuela Coronado
+                    </h3>
+                    <img
+                        src="/IMG/Integrantes/Fotos-04.png"
+                        onmouseover="this.src='/IMG/Integrantes/MANUELA_CORONADO.gif'"
+                        onmouseout="this.src='/IMG/Integrantes/Fotos-04.png'"
+                        width="190px" alt=""
+                    />
+
+                    <p>
+                        Cualidades: responsable, diciplinada y valor.
+                        <br>
+                        Destreza técnica: programación.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Juan David Holguin
+                    </h3>
+
+                    <img
+                        src="/IMG/Integrantes/Fotos-02.png"
+                        onmouseover="this.src='/IMG/Integrantes/Juan-unscreent.gif'"
+                        onmouseout="this.src='/IMG/Integrantes/Fotos-02.png'"
+                        width="190px" alt=""
+                    />
+                    <p>
+                        Cualidades: respetuoso, amable y ordenado.
+                        <br>
+                        Destreza técnica: edición de video.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Karolz Correa
+                    </h3>
+                    <img
+                        src="/IMG/Integrantes/Fotos-03.png"
+                        onmouseover="this.src='/IMG/Integrantes/KAROLZ_CORREA.gif'"
+                        onmouseout="this.src='/IMG/Integrantes/Fotos-03.png'"
+                        width="190px" alt=""
+                    />
+
+                    <p>
+                        Cualidades: ordenada, paciente y creativa.
+                        <br>
+                        Destreza técnica: diseño gráfico.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container" id="Proyecto">
+        <h2>
+            Proyecto
+        </h2>
+
+        <div class="div-proyecto">
+            <div class="Derecha-lado">
+                <h3>
+                    Contexto
+                </h3>
+            </div>
+
+            <div class="Columna-div">
+                <img src="/IMG/Ilustraciones pop up/POP UPS_Mesa de trabajo 1.png" width="35%" height="100%" alt="">
+
+                <div class="Texto-proyecto">
+                    <p>
+                        Las aguas subterráneas son acuíferos o pozos de aguas que se encuentran debajo de la tierra y se llenan por medio de la filtración de agua y gracias a esto se crean los manantiales que ayudan tanto a los animales como a los humanos ya que representa el 43% del agua consumida por el ser humano y animales, la contaminación de estas aguas provocan un cambio fuerte en el ecosistema.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="div-proyecto">
+            <div>
+                <h3 class="Izquierda-lado">
+                    Problemática
+                </h3>
+
+            </div>
+
+            <div class="Columna-div">
+                <div>
+                    <div class="Texto-proyecto">
+                        <p>
+                            Las aguas subterráneas se pueden contaminar por filtración de sustancias almacenadas bajo tierra o disolución de ellas.
+                            <br>
+                            Hay 4 tipos de contaminantes:
+                            <br>
+                            <br>
+                            La ganaderia masiva o fertilizantes.
+                            <br>
+                            La agricultura con abonos realizados con heces.
+                            <br>
+                            La industria con descargas acidas de metales, cianuros y materiales radiactivos.
+                            <br>
+                            La mineria hacer que se libere sulfuro que se convierte acido sulfurico altamente dañino.
+                        </p>
+                    </div>
+
+                </div>
+
+                <img src="/IMG/Ilustraciones pop up/POP UPS_Mesa de trabajo 1 copia 2.png" width="40%" height="100%"
+                    alt="">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="div-proyecto">
+            <div>
+                <h3 class="Derecha-lado">
+                    Objetivo
+                </h3>
+            </div>
+
+            <div class="Columna-div">
+                <img src="/IMG/Ilustraciones pop up/POP UPS_Mesa de trabajo 1 copia.png" width="40%" height="100%"
+                    alt="">
+
+                <div class="Texto-proyecto">
+                    <p>
+                        Dar a conocer en nuestras plataformas, investigación mas profunda sobre las aguas subterráneas haciendo uso de medios audiovisuales como un videojuego, con esto el proyecto TATENEN quiere generar conciencia sobre los riesgos de la contaminación.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="container" id="Pitchbook">
+        <h2>
+            Pitchbook
+        </h2>
+
+        <div class="Pitchbook-caja">
+            <div>
+                <iframe class="scribd_iframe_embed" title="TATENEN"
+                    src="https://es.scribd.com/embeds/579485891/content?start_page=1&view_mode=slideshow&access_key=key-1exWLsaeaPnpfT3vP0zV"
+                    scrolling="no" id="doc_37144" width="90%" height="600" frameborder="0"></iframe>
+                <script
+                    type="text/javascript">(function () { var scribd = document.createElement("script"); scribd.type = "text/javascript"; scribd.async = true; scribd.src = "https://es.scribd.com/javascripts/embed_code/inject.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(scribd, s); })();</script>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container" id="JUEGOWEB">
+        <h2>
+            Juego Web
+        </h2>
+
+        <div id="JUEGO-WEB">
+            <div class="Botones-juegoweb">
+                <div class="BOTON">
+                    <button class="boton-juegoweb" onclick="abrir_modal3()">
+                        ¿Qué es?
+                    </button>
+                </div>
+
+                <div class="BOTON" >
+                    <button class="boton-juegoweb" onclick="abrir_modal4()">
+                        Juguemos
+                    </button>
+                </div>
+
+                <div class="BOTON">
+                    <button class="boton-juegoweb" onclick="abrir_modal5()">
+                        Actualizaciones
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="container" id="Contactanos">
+        <h2>
+            Contáctanos
+        </h2>
+
+        <div id="Formulario">
+            <form action="/action_page.php">
+                <input type="text" id="Nombre" name="firstname" placeholder="Nombre">
+
+                <input type="text" id="Apellido" name="lastname" placeholder="Apellido">
+
+                <input type="email" id="lname" name="lastname" placeholder="E-mail">
+
+                <textarea placeholder="Déjanos un comentario..."></textarea> 
+
+                <button type="submit" value="Submit">
+                    Enviar
+                </button>
+            </form>
+
+            <div id="Iconos">
+                <div class="Iconos-colum">
+                    <a href="https://wa.me/573012497450" target="_blank">
+                        <img src="/IMG/Iconos/WhatsApp.png" alt="" srcset="">
+                    </a>
+
+                    <p>
+                        WhatsApp
+                    </p>
+                </div>
+
+                <div class="Iconos-colum">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/IMG/Iconos/Instagram.png" alt="" srcset="">
+                    </a>
+
+                    <p>
+                        Instagram
+                    </p>
+                </div>
+
+                <div class="Iconos-colum">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="/IMG/Iconos/Facebook.png" alt="" srcset="">
+                    </a>
+
+                    <p>
+                        Facebook
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Copyright">
+
+            <button onclick="abrir_modal6()">
+                Políticas de privacidad
+            </button>
+
+            <button onclick="abrir_modal7()">
+                Preguntas frecuentes
+            </button>
+
+        </div>
+    </footer>
+
+    <div id="subir">
+        <a href="#HEADER">
+            <img src="/IMG/Iconos/Flecha.png" alt="">
+        </a>
+
+    </div>
+
+
+<!--MENU HAMBURGUESA-->
+    <div class="Menu-hamburguesa-pop-up">
+
+        <ul class="display-block">
+            <li class="Registro">
+                <div>
+                    <button>
+                        <img src="/IMG/Iconos/Registro.png" alt="" srcset="">
+                    </button>
+                    <div class="enlaces">
+                        <a href="">
+                            Registrarse
+                        </h2>
+                        <a href="">
+                            Iniciar sesión
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+        <ul class="display-block">
+            <li class="enlaces">
+                <a class="información-enlaces" href="#Integrantes" onclick="cerrarmenu()">
+                    Proyecto
+                </a>
+            </li>
+            <li class="enlaces">
+                <a class="información-enlaces" href="#JUEGOWEB" onclick="cerrarmenu()">
+                    Juego Web
+                </a>
+            </li>
+            <li class="enlaces">
+                <a class="información-enlaces" href="#Contactanos" onclick="cerrarmenu()">
+                    Contáctanos
+                </a>
+            </li>
+        </ul>
+        <ul class="iconos">
+            <li class="icono">
+                <a class="imagen" href="https://www.instagram.com/" target="_blank">
+                    <img src="/IMG/Iconos/Instagram.png" alt="" srcset="">
+                </a>
+            </li>
+            <li class="icono">
+                <a class="imagen" href="https://wa.me/573012497450" target="_blank">
+                    <img src="/IMG/Iconos/WhatsApp.png" alt="" srcset="">
+                </a>
+            </li>
+            <li class="icono">
+                <a class="imagen" href="https://www.facebook.com/" target="_blank">
+                    <img src="/IMG/Iconos/Facebook.png" alt="" srcset="">
+                </a>
+            </li>
+        </ul>
+
+        <button class="Cerrar" onclick="cerrarmenu()">
+            Cerrar
+        </button>
+    </div>
+
+<!--FIN MENU HAMBURGUESA-->
+
+<!--POP UPS DE PROYECTO-->
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Contexto
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal()">
+                    ✕  
+                </button>
+            </header>
+
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img src="/IMG/Ilustraciones pop up/POP UPS_Mesa de trabajo 1.png" width="35%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Las aguas subterráneas son acuíferos o pozos de aguas que se encuentran debajo de la tierra y se llenan por medio de la filtración de agua y gracias a esto se crean los manantiales que ayudan tanto a los animales como a los humanos ya que representa el 43% del agua consumida por el ser humano y animales, la contaminación de estas aguas provocan un cambio fuerte en el ecosistema.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Problemática
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal1()">
+                    ✕  
+                </button>
+            </header>
+
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img src="/IMG/Ilustraciones pop up/POP UPS_Mesa de trabajo 1 copia 2.png" width="35%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Las aguas subterráneas se pueden contaminar por filtración de sustancias almacenadas bajo tierra o disolución de ellas.
+                            <br>
+                            Hay 4 tipos de contaminantes:
+                            <br>
+                            <br>
+                        </p>
+                        <p>
+                            La ganaderia masiva o fertilizantes.
+                            <br>
+                            La agricultura con abonos realizados con heces.
+                            <br>
+                            La industria con descargas acidas de metales, cianuros y materiales radiactivos.
+                            <br>
+                            La mineria hacer que se libere sulfuro que se convierte acido sulfurico altamente dañino.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Objetivo
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal2()">
+                    ✕  
+                </button>
+            </header>
+
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img src="/IMG/Ilustraciones pop up/POP UPS_Mesa de trabajo 1 copia.png" width="35%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Dar a conocer en nuestras plataformas, investigación mas profunda sobre las aguas subterráneas haciendo uso de medios audiovisuales como un videojuego, con esto el proyecto TATENEN quiere generar conciencia sobre los riesgos de la contaminación.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--FIN POP UPS DE PROYECTO-->
+
+
+    <!--POP UPS DE JUEGOWEB-->
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    ¿Qué es?
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal3()">
+                    ✕  
+                </button>
+            </header>
+
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img class="imagen-modal" src="/IMG/Ilustraciones pop up/Logo-videojuego.png" width="35%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            GroundWater Troll es un juego arcade en donde te encuentras en una aventura sobre las aguas subterráneas y aprendemos sobre ellas y como afecta al medio ambiente.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Juguemos
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal4()">
+                    ✕  
+                </button>
+            </header>
+    
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <a href="/Juego-web.HTML" target="_blank"  width="100%" class="link">
+                        <img class="imagen-modal" src="/IMG/Iconos/Recurso 2.png" alt="">
+                    </a>
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Conviertete en un explorador y contribuye al cuidado de las aguas subterráneas.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Actualizaciónes
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal5()">
+                    ✕  
+                </button>
+            </header>
+
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img class="imagen-modal" src="/IMG/Iconos/Recurso 6.png" width="20%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Nuestras actualizaciones son:
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--FIN POP UPS DE JUEGOWEB-->
+
+    
+    <!--POP UPS DE FOOTER-->
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Políticas de privacidad
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal6()">
+                    ✕  
+                </button>
+            </header>
+    
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img class="imagen-modal" src="/IMG/Iconos/Recurso 4.png" width="35%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Las Políticas de Privacidad en cambio, se refieren al tratamiento de los datos de los usuarios que tienen algún tipo de interacción con el sitio: cómo se recopilan, cómo se van a almacenar, para qué se van a usar y si se van a compartir.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="div-flex">
+        <div class="modal-dialog">
+            <header class="modal-header">
+                <h3>
+                    Preguntas frecuentes
+                </h3>
+                <button class="close-modal" onclick="cerrar_modal7()">
+                    ✕  
+                </button>
+            </header>
+
+            <section class="modal-content">
+                <div class="Columna-div">
+                    <img class="imagen-modal" src="/IMG/Iconos/Recurso 5.png" width="35%" height="100%" alt="">
+    
+                    <div class="Texto-modal">
+                        <p>
+                            Las preguntas mas frecuentes son:
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--FIN POP UPS DE FOOTER-->
+    <script src="/JS/code.js"></script>
+    <script src="/JS/bd.js"></script>
+</body>
+
+</html>

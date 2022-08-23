@@ -1,0 +1,1483 @@
+*{
+    margin: 0px;
+}
+
+.Menu-hamburguesa-pop-up {
+    display: none;
+}
+
+body{
+    background: #ffffff;
+    opacity: 1;
+}
+
+h2, h3, h4, h5, h6, ul, li{
+    font-family: LatoRegular;
+}
+h2{
+    color: #05cb9f;
+    text-align: center;
+    padding: 40px 0px;
+}
+h3{
+    color: #05cb9f;
+}
+p{
+    font-family: DayRoman;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.Navbar :hover{
+    color : #B2DCDA;
+}
+
+
+/*HEADER*/
+
+.hamburguesa{
+    display: none;
+}
+
+#HEADER{
+    background-color: white;
+    height: 80px;
+}
+nav{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    padding: 10px 20px 0px;
+}
+#Menu_desplegable{
+    display: none;
+    gap: 20px;
+}
+
+#Menu_desplegable a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #47b8a8;
+    padding: 8px;
+}
+
+.Registro button{
+    display: inline-block;
+    border: 0px;
+    background-color: transparent;
+}
+
+#List-Navbar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Navbar{
+    text-decoration: none;
+    display: inline-flex;
+    padding: 20px 0 0 100px;
+    font-size: 20px;
+}
+.Navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#List-Navbar1{
+    justify-content: space-between;
+}
+
+.Navbar1{
+    text-decoration: none;
+    display: inline-flex;
+    padding-right: 10px;
+}
+
+.Navbar1 img{
+    width: 40px;
+    padding: 15px 0px 0px 0px;
+}
+
+#Slider{
+    background-image: url("/IMG/Ilustraciones_slider/Slider1.png");
+    display: grid;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+}
+
+
+#SLIDER-BOTONES{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    margin-top: -40px;
+}
+
+.botones-slider{
+    border-radius: 100px;
+    padding: 20px 20px;
+    display: flex;
+    background: #47b8a8;
+    font-size: 0px;
+    margin-bottom: 20px;
+}
+
+.Flechas button{
+    background-color: transparent;
+    border: 0px;
+}
+
+.Flechas button :hover{
+    background-color: rgba(135, 194, 197, 0.534);
+}
+
+.Flechas{
+    justify-content: space-between;
+    display: flex;
+}
+
+#Flecha-izquierda{
+    padding-left: 20px;
+    width: 40px;
+}
+
+#Flecha-derecha{
+    padding-right: 20px;
+    width: 40px;
+}
+
+/*FIN HEADER*/
+
+/*INTEGRANTES*/
+#Columnas{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Columnas div h3{
+    text-align: center;
+
+}
+
+#Columnas div p{
+    text-align: center;
+}
+
+#Columnas div img{
+    display: flex;
+    margin: auto;
+}
+
+/*FIN INTEGRANTES*/
+
+
+/*PROYECTO*/
+
+#Proyecto {
+    margin-top: 40px;
+
+}
+
+.Texto-proyecto p{
+    padding: 10% 18% 0px;
+    text-align: justify;
+}
+
+#Proyecto div h3{
+    color: #05cb9f;
+    font-family: LatoRegular;
+    font-size: 23px;
+}
+
+#Proyecto h2{
+    padding-bottom: 40px;
+}
+
+.Derecha-lado{
+    text-align: right;
+}
+
+.Izquierda-lado{
+    text-align: left;
+}
+
+.div-proyecto{
+    background-color: #eeeeeee4;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+}
+
+.Columna-div{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 20px 40px 20px 40px;
+}
+.link{
+    padding-right: 200px;
+}
+
+.Columna-div img{
+    border-radius: 20px;
+}
+
+
+.boton-derecha{
+    background-color: #47b8a8;
+    border: 1px solid #47b8a8;
+    border-radius: 15px;
+    padding: 5px 25px;
+    font-size: 20px;
+    font-family: 'DayRoman';
+}
+
+.boton-izquierda{
+    background-color: #47b8a8;
+    border: 1px solid #47b8a8;
+    border-radius: 15px;
+    padding: 5px 25px;
+    font-size: 20px;
+    font-family: 'DayRoman';
+}
+
+.Botones-izquierda{
+    padding: 20% 0px 0px 16%;
+}
+
+.botones{
+    padding: 20% 0px 0px 70%;
+}
+
+
+/*MODAL*/
+.modal-dialog{
+    max-width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.div-flex{
+    display : none;
+    margin: auto;
+    background: #eeeeee;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    max-width: 1400px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.modal-header{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px 50px;
+}
+
+.modal-header h3{
+    font-size: 30px;
+}
+
+.close-modal{
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.Texto-modal{
+    padding: 5% 10% 0px;
+    text-align: center;
+}
+
+/*FIN MODAL*/
+
+
+/*FIN PROYECTO*/
+
+
+/*PITCHBOOK*/
+
+.Pitchbook-caja{
+    background-color: #47b8a8;
+    border-radius: 20px;
+}
+
+.Pitchbook-caja div{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+
+/*FIN PITCHBOOK*/
+
+/*JUEGO WEB*/
+
+#JUEGO-WEB{
+    background-image: url("/IMG/JUEGO\ WEB.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 960px;
+}
+
+
+.Botones-juegoweb{
+    float:right;
+    padding: 280px 230px 0px 0px;
+}
+
+.BOTON{
+    margin-bottom: 60px;
+}
+
+.Botones-juegoweb button{
+    padding: 10px 0px;
+    background-color: #47b8a8;
+    border: 1px solid #47b8a8;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/*FIN JUEGO WEB*/
+
+/*FOOTER*/
+
+#Formulario{
+    column-count: 2;
+    width: 80%;
+    gap: 400px;
+    display: flow-root;
+    margin: auto;
+}
+
+#Formulario form{
+    display: inline-block;
+    width: 420px;
+}
+
+#Formulario form input{
+    border: 2px solid #47b8a8;
+    background-color: white;
+    color: gray;
+    margin-bottom: 50px;
+    font-size: 25px;
+    width: 400px;
+    padding: 10px 5px;
+}
+
+#Formulario form textarea{
+    border: 2px solid #47b8a8;
+    background-color: white;
+    margin-bottom: 50px;
+    color: gray;
+    font-size: 25px;
+    padding: 10px 5px;
+    height: 200px;
+    width: 400px;
+}
+
+#Formulario form button{
+    margin: auto;
+    display: flex;
+    background-color: #05cb9f;
+    border: 1px solid #05cb9f;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+#Iconos{
+    display: block;
+    padding: 90px 0px;
+}
+
+.Iconos-colum{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.Iconos-colum p{
+    margin-top: 30px;
+}
+
+#Copyright{
+    background-color: #47b8a8;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#Copyright button{
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px;
+}
+
+#subir{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+
+/*FIN FOOTER*/
+
+/*RESPONSIVE TABLET*/
+
+@media screen and (max-width : 768px) {
+    *{
+        margin: 0px;
+    }
+    
+    .Menu-hamburguesa-pop-up {
+        display: none;
+    }
+
+    body{
+        background: #ffffff;
+        opacity: 1;
+    }
+    
+    h2, h3, h4, h5, h6, ul, li{
+        font-family: LatoRegular;
+    }
+    h2{
+        color: #05cb9f;
+        text-align: center;
+        padding: 40px 0px;
+    }
+    h3{
+        color: #05cb9f;
+    }
+    p{
+        font-family: DayRoman;
+        color: black;
+    }
+    button{
+        cursor: pointer;
+    }
+    
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    
+    /*HEADER*/
+    .hamburguesa{
+        display: none;
+    }
+    #HEADER{
+        background-color: white;
+        height: 80px;
+    }
+    nav{
+        display: flex;
+        position: fixed;
+        background-color: white;
+        padding: 10px 20px 0px;
+    }
+    #Menu_desplegable{
+        display: none;
+        gap: 5px;
+    }
+    
+    #Menu_desplegable a{
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: #47b8a8;
+        padding: 8px;
+        font-size: 15px;
+    }
+    
+    .Registro button{
+        display: inline-block;
+        border: 0px;
+        background-color: transparent;
+    }
+    
+    #List-Navbar{
+        margin-left: auto;
+        margin-right: 0px !important;
+        padding: 20px 0px 0px 20px;
+    }
+    
+    .Navbar{
+        text-decoration: none;
+        display: unset;
+        padding: 0px 10px 0px 0px;
+        font-size: 15px;
+    }
+    .Navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #List-Navbar1{
+        justify-content: space-between;
+    }
+    
+    .Navbar1{
+        text-decoration: none;
+        display: inline-flex;
+        padding-right: 10px;
+    }
+    
+    .Navbar1 img{
+        width: 35px;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    #Slider{
+        background-image: url("/IMG/Ilustraciones_slider/Slider1.png");
+        display: grid;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+    }
+    
+    
+    #SLIDER-BOTONES{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 20px;
+        margin-top: -40px;
+    }
+    
+    .botones-slider{
+        border-radius: 100px;
+        padding: 20px 20px;
+        display: flex;
+        background: #47b8a8;
+        font-size: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .Flechas button{
+        background-color: transparent;
+        border: 0px;
+    }
+    
+    .Flechas button :hover{
+        background-color: rgba(135, 194, 197, 0.534);
+    }
+    
+    .Flechas{
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    #Flecha-izquierda{
+        padding-left: 20px;
+        width: 40px;
+    }
+    
+    #Flecha-derecha{
+        padding-right: 20px;
+        width: 40px;
+    }
+    .logo{
+        padding: 10px 20px 0px 0px;
+        width: 190px;
+    }
+    
+    /*FIN HEADER*/
+    
+    /*INTEGRANTES*/
+    #Columnas{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    #Columnas div h3{
+        text-align: center;
+    
+    }
+    
+    #Columnas div p{
+        text-align: center;
+    }
+    
+    #Columnas div img{
+        display: flex;
+        margin: auto;
+    }
+    
+    /*FIN INTEGRANTES*/
+    
+    
+    /*PROYECTO*/
+    
+    #Proyecto {
+        margin-top: 40px;
+    
+    }
+    
+    .Texto-proyecto p{
+        padding: 30px 40px 30px;
+        text-align: justify;
+    }
+    
+    #Proyecto div h3{
+        color: #05cb9f;
+        font-family: LatoRegular;
+        font-size: 23px;
+    }
+    
+    #Proyecto h2{
+        padding-bottom: 40px;
+    }
+    
+    .Derecha-lado{
+        text-align: left;
+    }
+    
+    .Izquierda-lado{
+        text-align: left;
+    }
+    
+    .div-proyecto{
+        background-color: #eeeeeee4;
+        padding: 20px 40px 20px 40px;
+        border-radius: 20px;
+        margin: 0px 20px;
+    }
+    
+    .Columna-div{
+        display: block;
+        justify-content: space-around;
+        padding: 20px 40px 20px 40px;
+    }
+    .link{
+        padding-right: 200px;
+    }
+    
+    .Columna-div img{
+        border-radius: 20px;
+        margin: auto;
+        display: block;
+        width: 60%;
+    }
+    
+    
+    .boton-derecha{
+        background-color: #47b8a8;
+        border: 1px solid #47b8a8;
+        border-radius: 15px;
+        padding: 5px 25px;
+        font-size: 20px;
+        font-family: 'DayRoman';
+    }
+    
+    .boton-izquierda{
+        background-color: #47b8a8;
+        border: 1px solid #47b8a8;
+        border-radius: 15px;
+        padding: 5px 25px;
+        font-size: 20px;
+        font-family: 'DayRoman';
+    }
+    
+    .Botones-izquierda{
+        padding: 20% 0px 0px 16%;
+    }
+    
+    .botones{
+        padding: 20% 0px 0px 70%;
+    }
+    
+    
+    /*MODAL*/
+    .modal-dialog{
+        max-width: 100%;
+        border: 0px;
+        border-radius: 20px;
+        margin: auto;
+    }
+    
+    .div-flex{
+        display : none;
+        margin: 0px 30px;
+        background: #eeeeee;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        max-width: 1400px;
+        height: 500px;
+        border-radius: 40px;
+    }
+    
+    .modal-header{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 20px;
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+    
+    .modal-header h3{
+        font-size: 30px;
+    }
+    
+    .close-modal{
+        border-radius: 50px;
+        background-color: transparent;
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    
+    .Texto-modal{
+        padding: 5% 10% 0px;
+        text-align: center;
+    }
+    .imagen-modal{
+        width: 150px !important;
+    }
+    
+    /*FIN MODAL*/
+    
+    
+    /*FIN PROYECTO*/
+    
+    
+    /*PITCHBOOK*/
+    
+    .Pitchbook-caja{
+        background-color: #47b8a8;
+        border-radius: 20px;
+        margin: 0px 20px;
+    }
+    
+    .Pitchbook-caja div{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+    
+    iframe{
+        border-radius: 20px;
+    }
+    
+    
+    /*FIN PITCHBOOK*/
+    
+    /*JUEGO WEB*/
+    
+    #JUEGO-WEB{
+        background-image: url("/IMG/JUEGO\ WEB.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 550px;
+    }
+    
+    
+    .Botones-juegoweb{
+        float: right;
+        padding: 100px 20px 0px 0px;
+    }
+    
+    .BOTON{
+        margin-bottom: 60px;
+    }
+    
+    .Botones-juegoweb button{
+        padding: 10px 0px;
+        background-color: #47b8a8;
+        border: 1px solid #47b8a8;
+        display: block;
+        color: white;
+        text-align: center;
+        width: 300px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+    
+    /*FIN JUEGO WEB*/
+    
+    /*FOOTER*/
+    
+    #Formulario{
+        column-count: 2;
+        width: 80%;
+        gap: 200px;
+        display: flow-root;
+        margin: auto;
+    }
+    
+    #Formulario form{
+        display: inline-block;
+        width: 300px;
+    }
+    
+    #Formulario form input{
+        border: 2px solid #47b8a8;
+        background-color: white;
+        color: gray;
+        margin-bottom: 30px;
+        font-size: 20px;
+        width: 300px;
+        padding: 10px 5px;
+    }
+    
+    #Formulario form textarea{
+        border: 2px solid #47b8a8;
+        background-color: white;
+        color: gray;
+        margin-bottom: 30px;
+        font-size: 20px;
+        width: 300px;
+        padding: 10px 5px;
+        height: 200px;
+    }
+    
+    #Formulario form button{
+        margin: auto;
+        display: flex;
+        background-color: #05cb9f;
+        border: 1px solid #05cb9f;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    
+    #Iconos{
+        display: block;
+        padding: 90px 0px;
+    }
+    
+    .Iconos-colum{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .Iconos-colum p{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    #Copyright{
+        background-color: #47b8a8;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    #Copyright button{
+        color: white;
+        font-size: 25px;
+        padding: 10px 0px;
+        text-decoration: none;
+        background-color: transparent;
+        border: 0px;
+    }
+    
+    #subir{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100px;
+    }
+    
+    /*FIN FOOTER*/
+    
+}
+
+/*FIN RESPONSIVE TABLET*/
+
+
+/*RESPONSIVE CELULAR*/
+
+@media screen and (max-width : 320px) {
+    *{
+        margin: 0px;
+    }
+    
+    body{
+        background: #ffffff;
+        opacity: 1;
+    }
+    
+    h2, h3, h4, h5, h6, ul, li{
+        font-family: LatoRegular;
+    }
+    h2{
+        color: #05cb9f;
+        text-align: center;
+        padding: 40px 0px;
+    }
+    h3{
+        color: #05cb9f;
+    }
+    p{
+        font-family: DayRoman;
+        color: black;
+    }
+    button{
+        cursor: pointer;
+    }
+    
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    
+    /*HEADER*/
+    
+    #HEADER{
+        background-color: white;
+        height: 60px;
+    }
+    nav{
+        display: flex;
+        position: fixed;
+        background-color: white;
+        padding: 10px 50px 0px;
+        width: 100%;
+    }
+    #Menu_desplegable{
+        display: none;
+        gap: 5px;
+    }
+    .Menu-hamburguesa-logo{
+        display: flex;
+        position: fixed;
+        background-color: white;
+        padding: 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    #Menu_desplegable a{
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: #47b8a8;
+        padding: 8px;
+        font-size: 15px;
+    }
+    
+    .Registro button{
+        display: inline-block;
+        border: 0px;
+        background-color: transparent;
+    }
+    
+    #List-Navbar{
+        margin-left: auto;
+        margin-right: 0px !important;
+        padding: 20px 0px 0px 20px;
+        display: none;
+    }
+    
+    .Navbar{
+        text-decoration: none;
+        display: unset;
+        padding: 0px 10px 0px 0px;
+        font-size: 15px;
+    }
+    .Navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #List-Navbar1{
+        justify-content: space-between;
+        display: none;
+    }
+    
+    .Navbar1{
+        text-decoration: none;
+        display: inline-flex;
+        padding-right: 10px;
+    }
+    
+    .Navbar1 img{
+        width: 35px;
+        padding: 15px 0px 0px 0px;
+    }
+    
+    #Slider{
+        background-image: url(/IMG/Ilustraciones_slider/Slider1.png);
+        display: grid;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 145px;
+    }
+    
+    
+    #SLIDER-BOTONES{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 20px;
+        margin-top: -40px;
+    }
+    
+    .botones-slider{
+        border-radius: 100px;
+        padding: 20px 20px;
+        display: flex;
+        background: #47b8a8;
+        font-size: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .Flechas button{
+        background-color: transparent;
+        border: 0px;
+    }
+    
+    .Flechas button :hover{
+        background-color: rgba(135, 194, 197, 0.534);
+    }
+    
+    .Flechas{
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    #Flecha-izquierda{
+        padding-left: 0px;
+        width: 20px;
+    }
+    
+    #Flecha-derecha{
+        padding-right: 0px;
+        width: 20px;
+    }
+    .logo{
+        padding: 10px 20px 0px 0px;
+        width: 150px;
+    }
+    .hamburguesa{
+        display: flex;
+        background: transparent;
+        border: 0px;
+    }
+    
+    /*FIN HEADER*/
+    
+    /*INTEGRANTES*/
+    #Columnas{
+        display: block;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    #Columnas div h3{
+        text-align: center;
+    
+    }
+    #Columnas div{
+        margin: auto;
+        display: flow-root;
+        margin-bottom: 50px;
+    
+    }
+
+    #Columnas div p{
+        text-align: center;
+    }
+    
+    #Columnas div img{
+        display: flex;
+        margin: auto;
+    }
+    
+    /*FIN INTEGRANTES*/
+    
+    
+    /*PROYECTO*/
+    
+    #Proyecto {
+        margin-top: 40px;
+    
+    }
+    
+    .Texto-proyecto p{
+        padding: 30px 0px 30px;
+        text-align: justify;
+    }
+    
+    #Proyecto div h3{
+        color: #05cb9f;
+        font-family: LatoRegular;
+        font-size: 23px;
+    }
+    
+    #Proyecto h2{
+        padding-bottom: 40px;
+    }
+    
+    .Derecha-lado{
+        text-align: left;
+    }
+    
+    .Izquierda-lado{
+        text-align: left;
+    }
+    
+    .div-proyecto{
+        background-color: #eeeeeee4;
+        padding: 20px 10px 20px 10px;
+        border-radius: 20px;
+        margin: 0px 20px;
+    }
+    
+    .Columna-div{
+        display: block;
+        justify-content: space-around;
+        padding: 20px 40px 20px 40px;
+    }
+    .link{
+        padding-right: 200px;
+    }
+    
+    .Columna-div img{
+        border-radius: 20px;
+        margin: auto;
+        display: block;
+        width: 200px;
+    }
+    
+    
+    .boton-derecha{
+        background-color: #47b8a8;
+        border: 1px solid #47b8a8;
+        border-radius: 15px;
+        padding: 5px 25px;
+        font-size: 20px;
+        font-family: 'DayRoman';
+    }
+    
+    .boton-izquierda{
+        background-color: #47b8a8;
+        border: 1px solid #47b8a8;
+        border-radius: 15px;
+        padding: 5px 25px;
+        font-size: 20px;
+        font-family: 'DayRoman';
+    }
+    
+    .Botones-izquierda{
+        padding: 20% 0px 0px 16%;
+    }
+    
+    .botones{
+        padding: 20% 0px 0px 70%;
+    }
+    
+    
+    /*MODAL*/
+    .modal-dialog{
+        max-width: 100%;
+        border: 0px;
+        border-radius: 20px;
+        margin: auto;
+    }
+    
+    .div-flex{
+        display : none;
+        margin: 0px 30px;
+        background: #eeeeee;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        max-width: 1400px;
+        height: 500px;
+        border-radius: 40px;
+    }
+    
+    .modal-header{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 20px;
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+    
+    .modal-header h3{
+        font-size: 20px;
+    }
+    
+    .close-modal{
+        border-radius: 50px;
+        background-color: transparent;
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    
+    .Texto-modal{
+        padding: 10px 10% 0px 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .imagen-modal{
+        width: 100px !important;
+    }
+
+    .Menu-hamburguesa-pop-up{
+        display: none;
+        background-color: white;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        margin-top: 55px;
+    }
+
+    .display-block{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .enlaces a{
+        text-decoration: none;
+        color: #009985;
+        font-size: 20px;
+    }
+
+    .enlaces{
+        margin-top: 10px;
+    }
+    
+    .enlaces, .Registro, .icono{
+        list-style: none;
+    }
+
+    .Registro div{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .Registro div button img{
+        width: 50px;
+    }
+
+    .iconos{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .icono a img{
+        width: 50px;
+    }
+
+    .Cerrar{
+        background-color: #009985;
+        border: 0px;
+        border-radius: 10px;
+        color: white;
+        padding: 10px;
+        float: right;
+        margin: 20px;
+        font-size: 15px;
+    }
+    
+    /*FIN MODAL*/
+    
+    
+    /*FIN PROYECTO*/
+    
+    
+    /*PITCHBOOK*/
+    
+    .Pitchbook-caja{
+        background-color: #47b8a8;
+        border-radius: 20px;
+        margin: 0px 20px;
+    }
+    
+    .Pitchbook-caja div{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+    
+    iframe{
+        border-radius: 20px;
+    }
+    
+    
+    /*FIN PITCHBOOK*/
+    
+    /*JUEGO WEB*/
+    
+    #JUEGO-WEB{
+        background-image: url("/IMG/JUEGO\ WEB.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 250px;
+    }
+    
+    
+    .Botones-juegoweb{
+        float: right;
+        padding: 40px 30px 0px 0px;
+    }
+    
+    .BOTON{
+        margin-bottom: 20px;
+    }
+    
+    .Botones-juegoweb button{
+        padding: 10px 0px;
+        background-color: #47b8a8;
+        border: 1px solid #47b8a8;
+        display: block;
+        color: white;
+        text-align: center;
+        width: 150px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    
+    /*FIN JUEGO WEB*/
+    
+    /*FOOTER*/
+    
+    #Formulario{
+        column-count: 2;
+        width: 80%;
+        gap: 200px;
+        display: contents;
+        margin: auto;
+    }
+    
+    #Formulario form{
+        display: inline-block;
+        width: 300px;
+    }
+    
+    #Formulario form input{
+        border: 2px solid #47b8a8;
+        background-color: white;
+        color: gray;
+        margin-bottom: 30px;
+        font-size: 20px;
+        width: 300px;
+        padding: 10px 5px;
+    }
+    
+    #Formulario form textarea{
+        border: 2px solid #47b8a8;
+        background-color: white;
+        color: gray;
+        margin-bottom: 30px;
+        font-size: 20px;
+        width: 300px;
+        padding: 10px 5px;
+        height: 200px;
+    }
+    
+    #Formulario form button{
+        margin: auto;
+        display: flex;
+        background-color: #05cb9f;
+        border: 1px solid #05cb9f;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    
+    #Iconos{
+        display: block;
+        padding: 50px 0px 0px 0px;
+    }
+    
+    .Iconos-colum{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .Iconos-colum p{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    #Copyright{
+        background-color: #47b8a8;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    #Copyright button{
+        color: white;
+        font-size: 15px;
+        padding: 10px 0px;
+        text-decoration: none;
+        background-color: transparent;
+        border: 0px;
+    }
+    
+    #subir{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 70px;
+    }
+
+    #subir a img{
+        width: 50px;
+    }
+    
+    /*FIN FOOTER*/
+    
+}
+
+/*FIN RESPONSIVE CELULAR*/
