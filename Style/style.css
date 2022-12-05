@@ -55,6 +55,7 @@ nav{
     position: fixed;
     background-color: white;
     padding: 10px 20px 0px;
+    justify-content: space-between;
 }
 #Menu_desplegable{
     display: none;
@@ -75,16 +76,11 @@ nav{
     background-color: transparent;
 }
 
-#List-Navbar{
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .Navbar{
     text-decoration: none;
     display: inline-flex;
     padding: 20px 0 0 100px;
-    font-size: 20px;
+    font-size: 120%;
 }
 .Navbar a{
     text-decoration: none;
@@ -102,17 +98,16 @@ nav{
 }
 
 .Navbar1 img{
-    width: 40px;
+    width: 35px;
     padding: 15px 0px 0px 0px;
 }
 
 #Slider{
-    background-image: url("/IMG/Ilustraciones_slider/Slider1.png");
+    background-image: url(../IMG/Ilustraciones_slider/Slider1.png);
     display: grid;
-    background-size: 100%;
+    background-size: 100% 834px;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 850px;
+    height: 900px;
 }
 
 
@@ -163,7 +158,7 @@ nav{
 #Columnas{
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -336,7 +331,7 @@ iframe{
 /*JUEGO WEB*/
 
 #JUEGO-WEB{
-    background-image: url("/IMG/JUEGO\ WEB.svg");
+    background-image: url("../IMG/JUEGO\ WEB.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -369,17 +364,11 @@ iframe{
 
 /*FOOTER*/
 
-#Formulario{
-    column-count: 2;
-    width: 80%;
-    gap: 400px;
-    display: flow-root;
-    margin: auto;
-}
-
 #Formulario form{
-    display: inline-block;
     width: 420px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #Formulario form input{
@@ -390,6 +379,7 @@ iframe{
     font-size: 25px;
     width: 400px;
     padding: 10px 5px;
+    font-family: 'DayRoman';
 }
 
 #Formulario form textarea{
@@ -401,32 +391,19 @@ iframe{
     padding: 10px 5px;
     height: 200px;
     width: 400px;
+    font-family: 'DayRoman';
 }
 
 #Formulario form button{
-    margin: auto;
-    display: flex;
     background-color: #05cb9f;
     border: 1px solid #05cb9f;
     color: white;
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 20px;
-}
-
-#Iconos{
-    display: block;
-    padding: 90px 0px;
-}
-
-.Iconos-colum{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.Iconos-colum p{
-    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'LatoRegular';
 }
 
 #Copyright{
@@ -563,7 +540,7 @@ iframe{
     }
     
     #Slider{
-        background-image: url("/IMG/Ilustraciones_slider/Slider1.png");
+        background-image: url("../IMG/Ilustraciones_slider/Slider1.png");
         display: grid;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -804,7 +781,7 @@ iframe{
     /*JUEGO WEB*/
     
     #JUEGO-WEB{
-        background-image: url("/IMG/JUEGO\ WEB.svg");
+        background-image: url("../IMG/JUEGO\ WEB.svg");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
@@ -837,65 +814,46 @@ iframe{
     
     /*FOOTER*/
     
-    #Formulario{
-        column-count: 2;
-        width: 80%;
-        gap: 200px;
-        display: flow-root;
-        margin: auto;
-    }
-    
     #Formulario form{
-        display: inline-block;
-        width: 300px;
+        width: 420px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
     
     #Formulario form input{
         border: 2px solid #47b8a8;
         background-color: white;
         color: gray;
-        margin-bottom: 30px;
-        font-size: 20px;
-        width: 300px;
+        margin-bottom: 50px;
+        font-size: 25px;
+        width: 400px;
         padding: 10px 5px;
+        font-family: 'DayRoman';
     }
     
     #Formulario form textarea{
         border: 2px solid #47b8a8;
         background-color: white;
+        margin-bottom: 50px;
         color: gray;
-        margin-bottom: 30px;
-        font-size: 20px;
-        width: 300px;
+        font-size: 25px;
         padding: 10px 5px;
         height: 200px;
+        width: 400px;
+        font-family: 'DayRoman';
     }
     
     #Formulario form button{
-        margin: auto;
-        display: flex;
         background-color: #05cb9f;
         border: 1px solid #05cb9f;
         color: white;
         border-radius: 30px;
         padding: 10px 20px;
         font-size: 20px;
-    }
-    
-    #Iconos{
-        display: block;
-        padding: 90px 0px;
-    }
-    
-    .Iconos-colum{
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-    
-    .Iconos-colum p{
-        margin-left: 30px;
-        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: 'LatoRegular';
     }
     
     #Copyright{
@@ -977,7 +935,6 @@ iframe{
         position: fixed;
         background-color: white;
         padding: 10px 50px 0px;
-        width: 100%;
     }
     #Menu_desplegable{
         display: none;
@@ -1042,7 +999,7 @@ iframe{
     }
     
     #Slider{
-        background-image: url(/IMG/Ilustraciones_slider/Slider1.png);
+        background-image: url("../IMG/Ilustraciones_slider/Slider1.png");
         display: grid;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -1354,7 +1311,7 @@ iframe{
     /*JUEGO WEB*/
     
     #JUEGO-WEB{
-        background-image: url("/IMG/JUEGO\ WEB.svg");
+        background-image: url("../IMG/JUEGO\ WEB.svg");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
@@ -1387,65 +1344,46 @@ iframe{
     
     /*FOOTER*/
     
-    #Formulario{
-        column-count: 2;
-        width: 80%;
-        gap: 200px;
-        display: contents;
-        margin: auto;
-    }
-    
     #Formulario form{
-        display: inline-block;
-        width: 300px;
+        width: 200px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
     
     #Formulario form input{
         border: 2px solid #47b8a8;
         background-color: white;
         color: gray;
-        margin-bottom: 30px;
-        font-size: 20px;
-        width: 300px;
+        margin-bottom: 50px;
+        font-size: 25px;
+        width: 200px;
         padding: 10px 5px;
+        font-family: 'DayRoman';
     }
     
     #Formulario form textarea{
         border: 2px solid #47b8a8;
         background-color: white;
+        margin-bottom: 50px;
         color: gray;
-        margin-bottom: 30px;
-        font-size: 20px;
-        width: 300px;
+        font-size: 25px;
         padding: 10px 5px;
         height: 200px;
+        width: 200px;
+        font-family: 'DayRoman';
     }
     
     #Formulario form button{
-        margin: auto;
-        display: flex;
         background-color: #05cb9f;
         border: 1px solid #05cb9f;
         color: white;
         border-radius: 30px;
         padding: 10px 20px;
         font-size: 20px;
-    }
-    
-    #Iconos{
-        display: block;
-        padding: 50px 0px 0px 0px;
-    }
-    
-    .Iconos-colum{
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-    
-    .Iconos-colum p{
-        margin-left: 30px;
-        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: 'LatoRegular';
     }
     
     #Copyright{
@@ -1458,7 +1396,7 @@ iframe{
     
     #Copyright button{
         color: white;
-        font-size: 15px;
+        font-size: 25px;
         padding: 10px 0px;
         text-decoration: none;
         background-color: transparent;
@@ -1469,11 +1407,7 @@ iframe{
         position: fixed;
         bottom: 0;
         right: 0;
-        width: 70px;
-    }
-
-    #subir a img{
-        width: 50px;
+        width: 100px;
     }
     
     /*FIN FOOTER*/
