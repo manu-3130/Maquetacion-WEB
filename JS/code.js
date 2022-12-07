@@ -236,7 +236,7 @@ function cerrar_modal7(){
     section[5].style.opacity = "1"
     body[0].style.overflow = "auto"
 }
-
+ 
 
 //Menu hamburguesa
 let menu = document.getElementsByClassName("Menu-hamburguesa-pop-up")

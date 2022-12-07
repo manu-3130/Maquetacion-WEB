@@ -5,7 +5,7 @@ let Sliders = [
     },
 
     {
-        id : 2,
+        id : 2, 
         src : "./IMG/Ilustraciones_slider/Slider2.png",
     },
 
